@@ -1,0 +1,4 @@
+pyserial
+pyubx2
+Flask
+PyYAML

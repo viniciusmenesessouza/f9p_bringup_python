@@ -1,0 +1,31 @@
+serial:
+  port: /dev/ttyF9P # or COMx on Windows
+  baud: 115200
+  timeout: 1.0
+
+server:
+  host: 127.0.0.1
+  port: 5000
+
+map:
+  initial_zoom: 2
+  max_zoom: 20
+  first_fix_zoom:
+    hacc_over_50: 16
+    hacc_over_15: 17
+    hacc_over_5: 18
+    default: 19
+  path_max_points: 2000
+  update_interval_ms: 250
+
+ntrip:
+  enabled: true
+  host: 193.137.94.71
+  port: 2101
+  mountpoint: IGP0
+  username: renep6744
+  password: Rh5rVbwt
+  tls: false
+  timeout_s: 10.0
+  reconnect_s: 5.0
+  gga_interval_s: 10.0
