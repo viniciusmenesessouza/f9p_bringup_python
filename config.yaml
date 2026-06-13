@@ -20,11 +20,11 @@ map:
 
 ntrip:
   enabled: true
-  host: 193.137.94.71
+  host: 0.0.0.0  # put your NTRIP caster host here
   port: 2101
-  mountpoint: IGP0
-  username: renep6744
-  password: Rh5rVbwt
+  mountpoint: YOUR_MOUNTPOINT  # put your NTRIP mountpoint here
+  username: YOUR_USERNAME  # put your NTRIP username here
+  password: YOUR_PASSWORD  # put your NTRIP password here
   tls: false
   timeout_s: 10.0
   reconnect_s: 5.0
